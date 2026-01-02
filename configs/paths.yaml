@@ -1,0 +1,19 @@
+# data path
+raw_user_data_dir: "data/raw/User_Data"
+raw_midi_data_dir: "data/raw/MIDI_Data"
+processed_data_dir: "data/processed"
+
+# user data sub-path
+user_data:
+  eeg_raw_dir: "EEG"
+  midi_raw_dir: "MIDI"
+
+  iads_eeg_fragment_dir: "IADS_EEG_fragment"
+  iads_eeg_feature_dir: "IADS_EEG_feature"
+
+  memomusic_eeg_fragment_dir: "MemoMusic_EEG_fragment"
+  memomusic_midi_fragment_dir: "MemoMusic_MIDI_fragment"
+  memomusic_eeg_feature_dir: "MemoMusic_EEG_feature"
+
+# model save path
+model_checkpoints: "models/checkpoints"

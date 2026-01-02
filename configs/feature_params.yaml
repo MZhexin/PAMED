@@ -1,0 +1,11 @@
+eeg:
+  sampling_rate: 1000
+  frequency_bands:
+    delta: [1, 4]
+    theta: [4, 8]
+    alpha: [8, 12]
+    beta: [12, 30]
+    gamma: [30, 45]
+  wavelet_type: "db4"
+  wavelet_level: 5
+  time_window: 2.0

@@ -1,0 +1,76 @@
+# ========================== Project-Specific Ignore Rules ==========================
+# Ignore dataset directory: contains privacy-sensitive EEG data and large files not suitable for public sharing
+data/
+
+# Ignore models directory: includes trained model parameters, loss curves, VA trajectory plots, etc., which are privacy-sensitive and large in size, not suitable for public release
+models/
+
+# ========================== IDE Configuration (JetBrains: PyCharm) ==========================
+# Ignore most of .idea directory (personal IDE settings)
+.idea/
+# Keep shared code style and inspection profiles for team consistency
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# ========================== Python Virtual Environments ==========================
+# Python native venv
+venv/
+env/
+# Conda environment (if placed in project root)
+conda_env/
+# Virtualenv wrapper
+.venv/
+
+# ========================== General Python & Deep Learning Ignore Rules ==========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations (general Python, kept for compatibility)
+*.mo
+*.pot
+
+# Jupyter Notebook (common in deep learning workflows)
+.ipynb_checkpoints
+# Jupyter Lab workspace
+.jupyter/
+labwork/
+
+# Deep learning framework cache/files
+# PyTorch
+.pt
+.pth
+# TensorFlow/Keras
+*.ckpt
+*.ckpt.index
+*.pb
+assets/
+variables/
+# ONNX
+*.onnx
+# Model checkpoint backups
+*.bak
+*.backup
